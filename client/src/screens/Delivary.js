@@ -13,9 +13,10 @@ function Delivery() {
     const [bill, setBill] = useState([]);
     const [products, setProducts] = useState([
         {
+            //add items
             id: 1,
             name: 'Burger',
-            price: 500,
+            price: 550,
             qty: 1,
             image: burger
         },
@@ -29,14 +30,14 @@ function Delivery() {
         {
             id: 3,
             name: 'Pancake',
-            price: 120,
+            price: 120.50,
             qty: 1,
             image: pans
         },
         {
             id: 4,
             name: 'Noodles',
-            price: 450,
+            price: 400,
             qty: 1,
             image: noodles
         }

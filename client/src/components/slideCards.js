@@ -19,7 +19,7 @@ const SlidableCards = () => {
       imgSrc: noodles
     },
     {
-      title: 'Curries',
+      title: 'Curry',
       description: 'A classic dish that is sure to satisfy your cravings.',
       imgSrc: dishes
     },

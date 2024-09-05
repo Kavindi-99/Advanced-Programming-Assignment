@@ -30,7 +30,7 @@ function Delivery() {
         {
             id: 3,
             name: 'Pancake',
-            price: 120.00,
+            price: 125.00,
             qty: 1,
             image: pans
         },

@@ -15,7 +15,7 @@ function Delivery() {
         {
             //add items
             id: 1,
-            name: 'Burger',
+            name: 'Chicken Burger',
             price: 550,
             qty: 1,
             image: burger

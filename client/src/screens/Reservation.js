@@ -27,7 +27,7 @@ function Reservation() {
     fetchTables();
   }, []);
 
-  // Fetch user role from localStorage
+  // Fetch user role from localStorage.
   useEffect(() => {
     const role = JSON.parse(localStorage.getItem('user'))?.role;
     if (!role) {

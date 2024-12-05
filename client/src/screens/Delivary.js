@@ -15,7 +15,7 @@ function Delivery() {
         {
             //add items
             id: 1,
-            name: 'Burger',
+            name: 'Chicken Burger',
             price: 550,
             qty: 1,
             image: burger
@@ -23,14 +23,14 @@ function Delivery() {
         {
             id: 2,
             name: 'Hoppers',
-            price: 30,
+            price: 70,
             qty: 1,
             image: hopper
         },
         {
             id: 3,
             name: 'Pancake',
-            price: 120.50,
+            price: 125.00,
             qty: 1,
             image: pans
         },

@@ -18,7 +18,7 @@ function Orders() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        // Check if user is logged in and get role
+        // Check if user is logged in and get role.
         const user = JSON.parse(localStorage.getItem('user'));
         if (!user) {
             navigate('/login');
@@ -26,7 +26,7 @@ function Orders() {
             setUserRole(user.role);
             setUserId(user._id);
 
-            // Fetch orders and users based on role
+            // Fetch orders and users based on role.
             const fetchOrdersAndUsers = async () => {
                 try {
                     // Fetch orders
